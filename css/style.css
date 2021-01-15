@@ -71,3 +71,27 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.main-h2-our-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-peoples-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-peoples-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.188;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
