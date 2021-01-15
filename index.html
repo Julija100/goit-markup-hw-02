@@ -4,62 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Веб-студия</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" lang="en"><span>Web</span>Studio</a>
-        <ul>
-          <li>
-            <a href="#">Студия</a>
+    <header class="header">
+      <nav class="navigation">
+        <a class="logotype" href="./index.html" lang="en"
+          ><span>Web</span>Studio</a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="#">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
-          <li>
-            <a href="#">Контакты</a>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-contacts-list">
+        <li class="header-contacts-mail">
+          <a class="header-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-contact-tel">
+          <a class="header-contacts-link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
     <main>
       <!--HERO-->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="main-h1">Эффективные решения для вашего бизнеса</h1>
+        <button class="order-service-button" type="button">
+          Заказать услугу
+        </button>
       </section>
       <!--ABOUT US-->
-      <section>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+      <section class="about-us">
+        <ul class="about-us-theme">
+          <li class="about-us-list">
+            <h3 class="about-us-h3">Внимание к деталям</h3>
+            <p class="about-us-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="about-us-list">
+            <h3 class="about-us-h3">Пунктуальность</h3>
+            <p class="about-us-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="about-us-list">
+            <h3 class="about-us-h3">Планирование</h3>
+            <p class="about-us-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
+          <li class="about-us-list">
+            <h3 class="about-us-h3">Современные технологии</h3>
+            <p class="about-us-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -68,7 +88,7 @@
       </section>
       <!--WHAT WE DO-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="main-h2-what-we-do">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
