@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-CSS
+https://julija100.github.io/goit-markup-hw-02/
